@@ -1,0 +1,22 @@
+# Virtual environments
+venv*/
+_pycache_/
+
+# Big model files
+*.pt
+*.ckpt
+*.pkl
+*.safetensors
+
+# Image files and uploads
+uploads/
+*.png
+*.jpg
+*.jpeg
+# Training and dataset folders
+runs/
+interior-design-1/
+
+# Config and unnecessary files
+.env
+index.html
